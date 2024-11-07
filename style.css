@@ -1,0 +1,67 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+body{
+    background-color:#141515;
+    height: 100vh;
+    width: 100%; 
+    font-family: roboto;
+}
+@font-face{
+    font-family: roboto;
+    src: url(assets/Roboto/Roboto-Black.ttf);
+}
+
+.heading{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    margin-top: 20px;
+}
+.periodic_table{
+ display: grid;
+ grid-template-columns:repeat(18,65px);
+ grid-gap: 10px;
+ place-self: center;
+}
+.elements{
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    width: 65px;
+}
+.gap{
+    background-color: rgba(255, 255, 255, 0);
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+}
+.elements:hover{
+    scale: 1.5;
+}
+
+.gap{
+    display: grid;
+    width: 65px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: transparent;
+}
+.Number{
+    font-size: 0.8rem;
+    left: 0;
+    top: 0;
+}
+.Short_form{
+    position: relative;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
